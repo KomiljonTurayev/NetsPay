@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NetsPay_</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="netspay">NetsPay</string>
+    <string name="pay_about">The Payment Platform \n Built For Future</string>
+    <string name="todo">TODO</string>
+    <string name="home">Home</string>
+    <string name="cards">Cards</string>
+    <string name="earnings">Earnings</string>
+    <string name="profile">Profile</string>
+    <string name="helps">NetsPay helps you transfer money instantly to anyone over 100+ countries</string>
+    <string name="welcome">Welcome</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="finish">Finish</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login">Login</string>
+</resources>

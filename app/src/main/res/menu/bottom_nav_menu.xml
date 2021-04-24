@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Search"
+        android:enabled="true"
+        android:icon="@drawable/cards"
+        android:title="@string/cards"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/placeholder"
+        android:title="" />
+
+    <item
+        android:id="@+id/Profile"
+        android:enabled="true"
+        android:icon="@drawable/earnings"
+        android:title="@string/earnings"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/Settings"
+        android:enabled="true"
+        android:icon="@drawable/profile"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom" />
+
+</menu>

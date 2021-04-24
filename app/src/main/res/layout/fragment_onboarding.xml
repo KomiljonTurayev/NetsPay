@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".ui.obboardings.OnboardingFragment">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/button_sheet_half_round"
+        android:backgroundTint="@color/blue_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_variable_font_slnt"
+            android:text="NetsPay helps you transfer money \ninstantly to anyone over 100+ countries"
+            android:textColor="@color/white"
+            android:layout_marginBottom="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@color/blue_bold"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@color/blue_bold"
+            android:text="@string/skip"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:fontFamily="@font/inter_variable_font_slnt"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/blue_bold" />
+
+        <LinearLayout
+            android:id="@+id/dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/nextBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@null"
+            android:text="@string/next"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/inter_variable_font_slnt"
+            android:textColor="@color/white"
+            app:backgroundTint="@color/blue_bold" />
+
+        <TextView
+            android:id="@+id/finishBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:background="@null"
+            android:text="@string/finish"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/inter_variable_font_slnt"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            app:backgroundTint="@color/blue_bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

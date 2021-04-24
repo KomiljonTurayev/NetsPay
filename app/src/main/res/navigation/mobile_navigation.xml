@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_welcome">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="uz.uzsoft.netspay_.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_welcome"
+        android:name="uz.uzsoft.netspay_.ui.welcome.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" />
+    <fragment
+        android:id="@+id/nav_cards"
+        android:name="uz.uzsoft.netspay_.ui.cards.CardsFragment"
+        android:label="fragment_cards"
+        tools:layout="@layout/fragment_cards" />
+    <fragment
+        android:id="@+id/nav_earnings"
+        android:name="uz.uzsoft.netspay_.ui.earnings.EarningsFragment"
+        android:label="fragment_earnings"
+        tools:layout="@layout/fragment_earnings" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="uz.uzsoft.netspay_.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_onboarding"
+        android:name="uz.uzsoft.netspay_.ui.obboardings.OnboardingFragment"
+        android:label="fragment_onboarding"
+        tools:layout="@layout/fragment_onboarding" />
+</navigation>
