@@ -70,6 +70,7 @@ class SpacesItemDecoration(
                 }
 
             } else
+
                 if (vertical) {
 //            outRect.left = space
 //            outRect.right = space

@@ -10,5 +10,7 @@
     <color name="blue_">#4044FC</color>
     <color name="blue_bold">#1C1FB0</color>
     <color name="blue_black">#2430B5</color>
+    <color name="main_bg">#F2F2F2</color>
+    <color name="black_custom">#222222</color>
 
 </resources>
